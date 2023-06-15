@@ -9,7 +9,7 @@
     "serverless-http": "^3.2.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "start": "./node_modules/.bin/netlify-lambda serve src --openssl-legacy-provider start",
     "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "name": "back-end",
