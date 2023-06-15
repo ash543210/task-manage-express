@@ -12,6 +12,6 @@ mongoose
   )
   .then(() => console.log("Connected!"));
 
-app.use("/", tasksRoutes);
+app.use("/.netlify/functions/api", tasksRoutes);
 
 app.listen(3001);
